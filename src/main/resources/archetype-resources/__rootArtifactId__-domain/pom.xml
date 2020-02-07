@@ -13,7 +13,7 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <java-version>1.8</java-version>
-        <log4j>1.2.14</log4j>
+        <log4j>2.12.1</log4j>
         <claro.common>1.0.0</claro.common>
         <claro.rest.api.common>2.0.0</claro.rest.api.common>
         <maven.war.plugin>2.3</maven.war.plugin>
@@ -43,8 +43,8 @@
             <!--<scope>system</scope> <systemPath>${basedir}/lib/ojdbc6-11.2.0.3.jar</systemPath> -->
         </dependency>
         <dependency>
-            <groupId>log4j</groupId>
-            <artifactId>log4j</artifactId>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-core</artifactId>
             <version>${log4j}</version>
         </dependency>
         <dependency>

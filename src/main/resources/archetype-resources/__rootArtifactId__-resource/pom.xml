@@ -13,7 +13,7 @@
     <properties>
         <java-version>1.8</java-version>
         <claro.common>1.0.0</claro.common>
-        <log4j>1.2.14</log4j>
+        <log4j>2.12.1</log4j>
         <maven.war.plugin>2.3</maven.war.plugin>
         <code-module-domain>1.0.0</code-module-domain>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -23,8 +23,8 @@
 
     <dependencies>
         <dependency>
-            <groupId>log4j</groupId>
-            <artifactId>log4j</artifactId>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-core</artifactId>
             <version>${log4j}</version>
         </dependency>
         <dependency>
